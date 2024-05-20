@@ -198,7 +198,7 @@ import DSFAppearanceManager
 		t.drawsBackground = false
 		t.isBezeled = false
 		t.font = NSFont.systemFont(ofSize: 16, weight: .bold)
-        t.textColor = NSColor.red//NSColor.tertiaryLabelColor
+        t.textColor = NSColor.black//NSColor.tertiaryLabelColor
 		t.stringValue = self.label
 		t.alignment = .center
 		t.isEditable = false
