@@ -423,7 +423,7 @@ public extension DSFDropFilesView {
 
 extension DSFDropFilesView {
 	func backgroundColor() -> CGColor {
-        return NSColor.systemPink.withAlphaComponent(0.1).cgColor//NSColor(calibratedWhite: 0, alpha: 0.05).cgColor
+        return NSColor.systemPink.withAlphaComponent(0.05).cgColor//NSColor(calibratedWhite: 0, alpha: 0.05).cgColor
 	}
 
 	func backgroundStrokeColor() -> CGColor {
